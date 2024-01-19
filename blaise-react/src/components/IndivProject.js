@@ -1,7 +1,6 @@
 import React from 'react'
-import Aboutme from './buttons/AboutMeButton'
-import Contact from './buttons/ContactButton'
-import Project from './buttons/ProjectButton'
+import pokerImg from './images/pokerImg.PNG';
+
 
 function IndivProject() {
 
@@ -12,7 +11,7 @@ function IndivProject() {
           
             <div className='flex flex-row justify-center h-48'>
               <h1 className = 'text-3xl basis-2/3 justify-center text-center'>Render Description Here</h1>
-              <img alt='image failed to load'></img>
+              <img className = 'h-2/3' alt='sorry' src={pokerImg}/>
             </div>
          
   
