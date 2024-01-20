@@ -1,8 +1,7 @@
 import React from 'react'
-import pokerImg from './images/pokerImg.PNG';
 
 
-function IndivProject() {
+function IndivProject({description, url}) {
 
 
 
@@ -10,8 +9,8 @@ function IndivProject() {
   
           
             <div className='flex flex-row justify-center h-48'>
-              <h1 className = 'text-3xl basis-2/3 justify-center text-center'>Render Description Here</h1>
-              <img className = 'h-2/3' alt='sorry' src={pokerImg}/>
+              <h1 className = 'text-3xl basis-1/3 justify-center text-center'>{description}</h1>
+              <img className = 'h-2/3' alt='sorry' src={url}/>
             </div>
          
   
