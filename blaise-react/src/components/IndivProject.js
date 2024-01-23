@@ -8,8 +8,8 @@ function IndivProject({description, url, tools}) {
     return (
   
           
-            <div className='flex flex-row  h-48 w-3/4 justify-center'>
-              <div className = 'basis-1/3 justify-center text-center'>
+            <div className='flex flex-row  h-48 w-3/4 justify-center mx-40'>
+              <div className = 'basis-1/2 mt-6 justify-center text-center'>
                 <h1 className='text-xl'>{tools}</h1>
                 <h1 className='text-2xl'>{description}</h1>
               </div>
