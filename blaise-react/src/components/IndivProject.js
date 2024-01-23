@@ -1,16 +1,22 @@
 import React from 'react'
 
 
-function IndivProject({description, url}) {
+function IndivProject({description, url, tools}) {
 
 
 
     return (
   
           
-            <div className='flex flex-row justify-center h-48'>
-              <h1 className = 'text-3xl basis-1/3 justify-center text-center'>{description}</h1>
-              <img className = 'h-2/3' alt='sorry' src={url}/>
+            <div className='flex flex-row  h-48 w-3/4 justify-center'>
+              <div className = 'basis-1/3 justify-center text-center'>
+                <h1 className='text-xl'>{tools}</h1>
+                <h1 className='text-2xl'>{description}</h1>
+              </div>
+              <div className='items-center'>
+                <img className = 'h-2/3 ' alt='image failed to load' src={url}/>
+              </div>
+            
             </div>
          
   
